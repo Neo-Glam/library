@@ -1,0 +1,17 @@
+#library{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;    
+}
+
+
+.boite{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
