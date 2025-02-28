@@ -157,6 +157,7 @@ form{
     display: grid;
     gap: 5px;
     grid-template-columns: 1fr ;
+    padding: 10px;
 }
 
 input{
