@@ -115,3 +115,37 @@ button{
     background-color: var(--tercolor);
 
 }
+
+h2{
+    text-align: center;
+}
+
+:modal{
+    max-width: 500px;
+    display: grid;
+    gap: 5px;
+    background-color: var(--tercolor);
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr ;
+}
+
+form>div{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 4fr;
+
+}
+
+div>label{
+    text-align: right;
+}
